@@ -1,0 +1,79 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define int int64_t
+#define ll long long
+#define nline "\n";
+#define str(n) to_string(n)
+#define binary(n) std::bitset<32>(n).to_string()
+#define all(arr) arr.begin(), arr.end()
+#define fastIO1 ios_base::sync_with_stdio(false)
+#define fastIO2 cin.tie(NULL)
+#define asort(a) sort(a.begin(), a.end())
+#define dsort(a) sort(a.begin(), a.end(), greater<int>())
+#define cendl cout << endl
+#define imax INT_MAX
+#define imin INT_MIN
+#define lmax LONG_MAX
+#define lmin LONG_MIN
+#define vll vector<int>
+#define m(a) map<a, a>
+#define pb push_back
+#define pi 3.14159265358979323846264338327950288419716939937510582097494459230
+#define mod 1000000007
+#define min3(a, b, c) min(c, min(a, b))
+#define min4(a, b, c, d) min(d, min(c, min(a, b)))
+#define max3(a, b, c) max(c, max(a, b))
+#define max4(a, b, c, d) max(d, max(c, max(a, b)))
+#define mod 1000000007
+#define Google(t) cout << "Case #" << t << ": ";
+#define maxn 100001
+#define yes cout << "YES" << endl
+#define no cout << "NO" << endl
+void read(vector<int> &a);
+void read(vector<string> &a);
+void read(vector<vector<int>> &a);
+void read(vector<pair<int, int>> &a);
+
+void solve()
+{
+    
+}
+
+int32_t main()
+{
+    fastIO1;
+    fastIO2;
+    // yagnesh();
+    // isPrime();
+    int t = 1;
+    cin >> t;
+    for (int tt = 1; tt <= t; tt++)
+    {
+        // Google(tt);
+        solve();
+    }
+
+    return 0;
+}
+
+void read(vector<int> &a)
+{
+    for (int i = 0; i < a.size(); i++)
+        cin >> a[i];
+}
+void read(vector<string> &a)
+{
+    for (int i = 0; i < a.size(); i++)
+        cin >> a[i];
+}
+void read(vector<vector<int>> &a)
+{
+     for (int i = 0; i < a.size(); i++)
+        for (int j = 0; j < a[i].size(); j++)
+            cin >> a[i][j];
+}
+void read(vector<pair<int, int>> &a)
+{
+    for (int i = 0; i < a.size(); i++)
+        cin >> a[i].first >> a[i].second;
+}
